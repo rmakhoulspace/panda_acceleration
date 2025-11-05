@@ -62,4 +62,4 @@ pandas-gpu-acceleration/
 │
 ├── pandas_gpu_demo.ipynb     
 ├── README.md                 
-└── images/                   
+└── panda.png                   
