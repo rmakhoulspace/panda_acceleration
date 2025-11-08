@@ -1,12 +1,12 @@
-# 🐼🚀 Accelerating Pandas with NVIDIA RAPIDS cuDF
+Accelerating Pandas
 
-This project demonstrates how common **Pandas** operations can be transparently accelerated on the **GPU** using the **RAPIDS cuDF Pandas accelerator**.
+This project demonstrates how common Pandas operations can be transparently accelerated on the GPU using the **RAPIDS cuDF Pandas accelerator**.
 
 It explores realistic large-scale data manipulation tasks (with ~1 million rows each) such as grouping, merging, value counting, and rolling-window smoothing — all executed through standard Pandas syntax, but running on GPU when cuDF is enabled.
 
 ---
 
-## 🧠 Overview
+Overview
 
 The notebook includes five main sections:
 
@@ -22,11 +22,11 @@ Each operation is designed to be *Pandas-compatible* and automatically benefits 
 
 ---
 
-## ⚙️ Setup & Requirements
+Setup & Requirements
 
 You can run this project directly on **Google Colab** or on a **local RAPIDS environment**.
 
-### ▶️ Option 1: Run on Colab (recommended)
+Option 1: Run on Colab (recommended)
 
 1. Open the notebook in Google Colab.  
 2. At the top, install RAPIDS cuDF:
@@ -36,7 +36,7 @@ You can run this project directly on **Google Colab** or on a **local RAPIDS env
 Enable the cuDF Pandas accelerator inside the notebook:
 %load_ext cudf.pandas
 
-📊 What the Code Demonstrates
+What the Code Demonstrates
 
 Large-scale synthetic data generation
 Creates 1M-row DataFrames with categorical, numeric, and date columns.
@@ -57,7 +57,7 @@ Visualization
 Uses Matplotlib to plot rolling-mean trends over the last 100 days.
 
 
-🧩 Repository Structure
+Repository Structure
 pandas-gpu-acceleration/
 │
 ├── pandas_gpu_demo.ipynb     
